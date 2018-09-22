@@ -14,9 +14,8 @@ class Person
   end
 
   def happiness
-    binding.pry
     self.happiness <= 0 ? self : 0
-    binding.pry
+    # binding.pry
   end
 
   def get_paid(salary)
