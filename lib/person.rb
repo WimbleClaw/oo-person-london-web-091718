@@ -5,7 +5,7 @@ class Person
   attr_reader :name
 
 
-  def initialize(name)
+  def initialize(name, happiness)
     @name = name
     @hygiene = 8
     @bank_account = 25
