@@ -1,7 +1,7 @@
 require 'pry'
 
 class Person
-  attr_accessor :hygiene, :bank_account, :happiness, :salary
+  attr_accessor :hygiene, :bank_account, :happiness
   attr_reader :name
 
 
@@ -10,7 +10,6 @@ class Person
     @hygiene = 8
     @bank_account = 25
     @happiness = 8
-    @salary = []
   end
 
   def happiness=(happiness)
