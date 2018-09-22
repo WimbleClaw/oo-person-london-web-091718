@@ -62,6 +62,7 @@ class Person
     self.hygiene=(hygiene)
     @happiness += 2
     self.happiness=(happiness)
+    "♪ another one bites the dust ♫"
   end
 
 end
