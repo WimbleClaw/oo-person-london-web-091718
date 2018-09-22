@@ -65,4 +65,9 @@ class Person
     "♪ another one bites the dust ♫"
   end
 
+  def call_friend(friend)
+    @happiness += 3
+    self.happiness=(happiness)
+  end
+
 end
