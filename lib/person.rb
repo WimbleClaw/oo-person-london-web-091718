@@ -72,7 +72,7 @@ class Person
     "Hi #{friend.name}! It's #{@name}. How are you?"
   end
 
-  def start_conversation(person, topic)
+  def start_conversation(self, topic)
     if topic == politics
       'blah blah partisan blah lobbyist'
       # @happiness -= 3
