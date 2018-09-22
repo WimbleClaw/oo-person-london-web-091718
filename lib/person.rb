@@ -13,7 +13,7 @@ class Person
     @salary = []
   end
 
-  def keep_min(happiness)
+  def happiness
     binding.pry
     self.happiness <= 0 ? self : 0
     binding.pry
