@@ -29,7 +29,7 @@ class Person
     end
   end
 
-  def hygiene=
+  def hygiene=(happiness)
     if hygiene < 0
       @hygiene = 0
     elsif hygiene > 10
@@ -61,14 +61,14 @@ class Person
     @hygiene -= 3
     self.hygiene=(hygiene)
     @happiness += 2
-    self.happiness=
+    self.happiness=(happiness)
     "♪ another one bites the dust ♫"
   end
 
   def call_friend(friend)
     @happiness += 3
-    self.happiness=
-    friend.happiness=
+    self.happiness=(happiness)
+    friend.happiness=(happiness)
     "Hi #{friend.name}! It's #{@name}. How are you?"
   end
 
