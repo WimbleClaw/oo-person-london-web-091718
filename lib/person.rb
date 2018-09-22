@@ -15,7 +15,7 @@ class Person
 
   def happiness=(happiness)
     if happiness < 0
-      binding.pry
+      happiness = 0
     end
   end
 
