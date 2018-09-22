@@ -18,7 +18,7 @@ class Person
       @happiness = 0
     elsif happiness > 10
       @happiness = 10
-      
+
     else @happiness = happiness
     end
   end
