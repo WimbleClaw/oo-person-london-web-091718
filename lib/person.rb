@@ -29,7 +29,7 @@ class Person
     end
   end
 
-  def hygiene=
+  def hygiene=(happiness)
     if hygiene < 0
       @hygiene = 0
     elsif hygiene > 10
