@@ -70,6 +70,7 @@ class Person
     self.happiness=(happiness)
     friend.happiness += 3
     friend.happiness=(happiness)
+    "Hi #{@name}! It's #{friend}. How are you?"
   end
 
 end
