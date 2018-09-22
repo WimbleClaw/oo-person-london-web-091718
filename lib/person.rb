@@ -11,9 +11,15 @@ class Person
     @salary = []
   end
 
+  def keep_min(happiness)
+   (self <=> happiness) <= 0 ? self : happiness
+  end
+
   def get_paid(salary)
     @bank_account += @salary
     'all about the benjamins'
   end
+
+
 
 end
