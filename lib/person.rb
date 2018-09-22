@@ -24,6 +24,7 @@ class Person
 
   def hygiene=(hygiene)
     if hygiene > 0
+      binding.pry
       @hygiene = 0
     elsif hygiene > 10
       @hygiene = 10
