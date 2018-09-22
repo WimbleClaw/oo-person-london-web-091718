@@ -77,7 +77,7 @@ class Person
       'blah blah partisan blah lobbyist'
       @happiness -= 3
       self.happiness=
-    
+
   end
 
 end
