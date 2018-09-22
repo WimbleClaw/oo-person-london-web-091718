@@ -13,7 +13,7 @@ class Person
     @salary = []
   end
 
-  def happiness=
+  def happiness=(hh)
     binding.pry
   end
 
