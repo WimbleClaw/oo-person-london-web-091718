@@ -2,7 +2,7 @@ require 'pry'
 
 class Person
   attr_accessor :bank_account, :happiness
-  attr_reader :name, 
+  attr_reader :name,
   attr_writer :hygiene
 
 
