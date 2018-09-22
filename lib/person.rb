@@ -5,7 +5,7 @@ class Person
   attr_reader :name
 
 
-  def initialize(name, happiness)
+  def initialize(name)
     @name = name
     @hygiene = 8
     @bank_account = 25
@@ -13,7 +13,7 @@ class Person
     @salary = []
   end
 
-  def happiness
+  def happiness=
     binding.pry
   end
 
