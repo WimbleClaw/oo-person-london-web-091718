@@ -29,7 +29,7 @@ class Person
       false
     end
   end
-  
+
   def hygiene=(hygiene)
     if hygiene < 0
       @hygiene = 0
