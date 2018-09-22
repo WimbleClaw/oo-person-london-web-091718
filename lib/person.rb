@@ -14,9 +14,7 @@ class Person
   end
 
   def happiness
-    if self.happiness
     binding.pry
-    end
   end
 
   def happiness
