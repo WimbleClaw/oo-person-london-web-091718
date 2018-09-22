@@ -14,11 +14,7 @@ class Person
   end
 
   def happiness
-    if @happiness <= 0
-      @happiness = 0
-    elsif @happiness > 10
-      @happiness = 10
-    end
+    @happiness <= 0 ?  0 : @happiness
   end
 
   def happiness
