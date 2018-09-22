@@ -31,6 +31,12 @@ class Person
     end
   end
 
+  def happy?
+    if self.happiness > 7
+      true
+    end
+  end
+
   def get_paid(salary)
     @bank_account += @salary
     'all about the benjamins'
