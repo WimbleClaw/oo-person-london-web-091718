@@ -14,7 +14,9 @@ class Person
   end
 
   def happiness
-    self.happiness < 0 ?  0 : @happiness
+    if self.happiness
+    binding.pry
+    end
   end
 
   def happiness
