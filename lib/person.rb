@@ -27,7 +27,7 @@ class Person
       @hygiene = 0
     elsif hygiene > 10
       @hygiene = 10
-    else @hygiene = happiness
+    else @hygiene = hygiene
     end
   end
 
