@@ -34,6 +34,8 @@ class Person
   def happy?
     if self.happiness > 7
       true
+    else
+      false
     end
   end
 
