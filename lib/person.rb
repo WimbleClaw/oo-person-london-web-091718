@@ -3,7 +3,7 @@ class Person
   attr_reader :name
 
 
-  def initialize(name, bank_account)
+  def initialize(name)
     @name = name
     @hygiene = 8
     @bank_account = $25
