@@ -29,7 +29,7 @@ class Person
     end
   end
 
-  def hygiene=(hygiene)
+  def hygiene=
     if hygiene < 0
       @hygiene = 0
     elsif hygiene > 10
@@ -73,6 +73,10 @@ class Person
   end
 
   def start_conversation(person, topic)
+    if topic == politics
+      'blah blah partisan blah lobbyist'
+      @happiness -= 3
+      self.happiness=
     
   end
 
