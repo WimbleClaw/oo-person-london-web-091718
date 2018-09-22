@@ -12,7 +12,7 @@ class Person
   end
 
   def keep_min(happiness)
-   (self <=> happiness) <= 0 ? self : happiness
+    self.happiness <= 0 ? self : happiness
   end
 
   def get_paid(salary)
