@@ -14,8 +14,10 @@ class Person
   end
 
   def happiness
-    @happiness <= 0 ? binding.pry
-    0 : @happiness
+    if @happiness <= 0 
+      @happiness = 0
+    elsif @happiness > 10 
+      @happiness = 10
   end
 
   def happiness
