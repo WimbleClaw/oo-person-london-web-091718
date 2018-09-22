@@ -47,7 +47,7 @@ class Person
   end
 
   def get_paid(salary)
-    self.bank_account += @salary
+    self.bank_account += salary
     'all about the benjamins'
   end
 
