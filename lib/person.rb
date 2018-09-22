@@ -14,6 +14,7 @@ class Person
   end
 
   def keep_min(happiness)
+    bining.pry
     self.happiness <= 0 ? self : 0
     binding.pry
   end
