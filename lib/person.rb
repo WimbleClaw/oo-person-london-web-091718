@@ -47,8 +47,7 @@ class Person
   end
 
   def get_paid(salary)
-    binding.pry
-    @bank_account += @salary
+    self.bank_account += @salary
     'all about the benjamins'
   end
 
