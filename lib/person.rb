@@ -26,7 +26,6 @@ class Person
     if hygiene < 0
       @hygiene = 0
     elsif hygiene > 10
-      binding.pry
       @hygiene = 10
     else @hygiene = hygiene
     end
