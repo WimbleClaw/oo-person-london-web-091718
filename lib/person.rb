@@ -15,6 +15,9 @@ class Person
 
   def happiness
     @happiness <= 0 ?  0 : @happiness
+  end
+
+  def happiness
     @happiness > 10 ?  10 : @happiness
   end
 
