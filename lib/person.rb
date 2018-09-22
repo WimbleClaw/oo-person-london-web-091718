@@ -51,6 +51,9 @@ class Person
     'all about the benjamins'
   end
 
-
+  def take_bath
+    @hygiene += 4
+    self.hygiene
+  end
 
 end
