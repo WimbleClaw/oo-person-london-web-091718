@@ -14,12 +14,9 @@ class Person
   end
 
   def happiness=(happiness)
-    happiness <= 0 ?  0 : @happiness
-    happiness > 10 ?  10 : @happiness
-  end
-
-  def happiness
-    @happiness > 10 ?  10 : @happiness
+    if happiness < 0
+      binding.pry
+    end
   end
 
   def get_paid(salary)
