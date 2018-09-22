@@ -23,8 +23,7 @@ class Person
   end
 
   def hygiene=(hygiene)
-    if hygiene > 0
-
+    if hygiene < 0
       @hygiene = 0
     elsif hygiene > 10
       binding.pry
