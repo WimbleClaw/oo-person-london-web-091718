@@ -54,6 +54,7 @@ class Person
   def take_bath
     @hygiene += 4
     self.hygiene
+    "♪ Rub-a-dub just relaxing in the tub ♫"
   end
 
 end
