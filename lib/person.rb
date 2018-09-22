@@ -61,14 +61,14 @@ class Person
     @hygiene -= 3
     self.hygiene=(hygiene)
     @happiness += 2
-    self.happiness=(happiness)
+    self.happiness=
     "♪ another one bites the dust ♫"
   end
 
   def call_friend(friend)
     @happiness += 3
-    self.happiness=(happiness)
-    friend.happiness=(happiness)
+    self.happiness=
+    friend.happiness=
     "Hi #{friend.name}! It's #{@name}. How are you?"
   end
 
