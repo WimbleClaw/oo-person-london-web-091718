@@ -11,4 +11,9 @@ class Person
     @salary = []
   end
 
+  def get_paid(salary)
+    @bank_account += @salary
+    'all about the benjamins'
+  end
+
 end
