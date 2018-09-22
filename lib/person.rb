@@ -22,6 +22,14 @@ class Person
     end
   end
 
+  def happy?
+    if self.happiness > 7
+      true
+    else
+      false
+    end
+  end
+  
   def hygiene=(hygiene)
     if hygiene < 0
       @hygiene = 0
@@ -31,8 +39,8 @@ class Person
     end
   end
 
-  def happy?
-    if self.happiness > 7
+  def clean?
+    if self.hygiene > 7
       true
     else
       false
