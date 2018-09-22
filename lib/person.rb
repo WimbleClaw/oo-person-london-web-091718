@@ -13,8 +13,9 @@ class Person
     @salary = []
   end
 
-  def happiness=(hh)
-    binding.pry
+  def happiness=(happiness)
+    @happiness <= 0 ?  0 : @happiness
+    @happiness > 10 ?  10 : @happiness
   end
 
   def happiness
