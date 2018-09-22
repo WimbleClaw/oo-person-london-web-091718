@@ -13,7 +13,7 @@ class Person
     @salary = []
   end
 
-  def happiness=(happiness)
+  def happiness=(@happiness)
     @happiness <= 0 ?  0 : @happiness
     @happiness > 10 ?  10 : @happiness
   end
