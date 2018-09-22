@@ -22,6 +22,15 @@ class Person
     end
   end
 
+  def hygiene=(hygiene)
+    if hygiene > 0
+      @hygiene = 0
+    elsif hygiene > 10
+      @hygiene = 10
+    else @hygiene = happiness
+    end
+  end
+
   def get_paid(salary)
     @bank_account += @salary
     'all about the benjamins'
